@@ -1,0 +1,55 @@
+{
+  "name": "the-entrypoint",
+  "description": "Browser entrypoint for the-framework",
+  "version": "1.0.0",
+  "author": {
+    "name": "okunishinishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "undefined"
+  },
+  "browser": "shim",
+  "bugs": {
+    "url": "https://github.com/the-labo/the-entrypoint/issues"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "the-router": "^2.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "the-script-build": "^3.1.2",
+    "the-script-jsdoc": "^2.0.1",
+    "the-script-release": "^1.0.6",
+    "the-script-share": "^1.0.5",
+    "the-script-update": "^1.0.0",
+    "the-templates": "^2.1.11"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=4"
+  },
+  "homepage": "https://github.com/the-labo/the-entrypoint#readme",
+  "keywords": [
+    "the"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "repository": "the-labo/the-entrypoint",
+  "scripts": {
+    "build": "the-script-build",
+    "doc": "the-script-jsdoc",
+    "prepare": "the-script-build && the-script-jsdoc",
+    "release": "the-script-release -y",
+    "share": "the-script-share",
+    "test": "mocha",
+    "update": "the-script-update",
+    "watch": "the-script-build -w"
+  }
+}

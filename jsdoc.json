@@ -1,0 +1,78 @@
+{
+    "functions": [
+        {
+            "name": "mount",
+            "access": "",
+            "virtual": false,
+            "description": "Mount element on DOM",
+            "parameters": [
+                {
+                    "name": "element",
+                    "type": "*",
+                    "description": "React element",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "containerId",
+                    "type": "string",
+                    "description": "Id of container dom",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "object",
+                    "description": "Optional settings",
+                    "default": "",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise",
+                "description": ""
+            }
+        },
+        {
+            "name": "mount",
+            "access": "",
+            "virtual": false,
+            "description": "Mount element on DOM",
+            "parameters": [
+                {
+                    "name": "element",
+                    "type": "*",
+                    "description": "React element",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "containerId",
+                    "type": "string",
+                    "description": "Id of container dom",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "options",
+                    "type": "object",
+                    "description": "Optional settings",
+                    "default": "",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "Promise",
+                "description": ""
+            }
+        }
+    ]
+}
