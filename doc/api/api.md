@@ -1,4 +1,4 @@
-# the-entrypoint@1.0.0
+# the-entrypoint@1.0.1
 
 Browser entrypoint for the-framework
 

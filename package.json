@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "history": "^4.7.2",
-    "the-router": "^2.0.6"
+    "the-router": "^2.0.6",
+    "the-window": "^6.0.1"
   },
   "devDependencies": {
     "mocha": "^5.0.0",
