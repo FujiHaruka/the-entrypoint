@@ -38,6 +38,23 @@
             }
         },
         {
+            "name": "workers",
+            "access": "",
+            "virtual": false,
+            "description": "Register service workers",
+            "parameters": [
+                {
+                    "name": "serviceWorkers",
+                    "type": "Array.<string>",
+                    "description": "Service worker urls",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "mount",
             "access": "",
             "virtual": false,
@@ -73,6 +90,23 @@
                 "type": "Promise",
                 "description": ""
             }
+        },
+        {
+            "name": "workers",
+            "access": "",
+            "virtual": false,
+            "description": "Register service workers",
+            "parameters": [
+                {
+                    "name": "serviceWorkers",
+                    "type": "Array.<string>",
+                    "description": "Service worker urls",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
         }
     ]
 }
