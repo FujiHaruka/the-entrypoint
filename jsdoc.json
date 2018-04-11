@@ -38,6 +38,23 @@
             }
         },
         {
+            "name": "singleton",
+            "access": "",
+            "virtual": false,
+            "description": "Make sure that entrypoint loaded only once",
+            "parameters": [
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "Optional settings",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "workers",
             "access": "",
             "virtual": false,
