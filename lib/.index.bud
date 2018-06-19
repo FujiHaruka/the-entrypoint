@@ -5,7 +5,6 @@ const {dir} = require('the-templates')
 
 module.exports = [
   true,
-  false
 ].map((cjs) => ({
   ...dir({
     cjs,
