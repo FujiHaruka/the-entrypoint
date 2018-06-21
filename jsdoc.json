@@ -38,6 +38,23 @@
             }
         },
         {
+            "name": "secure",
+            "access": "",
+            "virtual": false,
+            "description": "Make sure to be secure",
+            "parameters": [
+                {
+                    "name": "options",
+                    "type": "Object",
+                    "description": "Optional settings",
+                    "default": "{}",
+                    "optional": true,
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
             "name": "singleton",
             "access": "",
             "virtual": false,

@@ -1,7 +1,7 @@
 {
   "name": "the-entrypoint",
   "description": "Browser entrypoint for the-framework",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "author": {
     "name": "okunishinishi",
     "email": "okunishinishi@gmail.com",
@@ -14,21 +14,21 @@
   "dependencies": {
     "history": "^4.7.2",
     "the-router": "^2.0.10",
-    "the-window": "^6.1.1"
+    "the-window": "^6.1.4"
   },
   "devDependencies": {
-    "@babel/runtime": "*",
+    "@babel/runtime": "^7.0.0-beta.51",
     "injectmock": "^2.0.0",
     "mocha": "^5.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
-    "the-script-build": "^3.1.13",
+    "the-script-build": "^3.1.17",
     "the-script-jsdoc": "^2.0.2",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^2.0.0",
-    "the-templates": "^3.2.4"
+    "the-templates": "^4.0.15"
   },
   "engines": {
     "node": ">=8",
