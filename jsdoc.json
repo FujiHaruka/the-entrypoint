@@ -99,6 +99,18 @@
                 "type": "Promise.<void>",
                 "description": ""
             }
+        },
+        {
+            "name": "createStyleElement",
+            "access": "",
+            "virtual": false,
+            "description": "Create Style element",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "HTMLElement",
+                "description": ""
+            }
         }
     ]
 }
