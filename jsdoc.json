@@ -38,6 +38,14 @@
             }
         },
         {
+            "name": "patch",
+            "access": "",
+            "virtual": false,
+            "description": "Apply patch",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "secure",
             "access": "",
             "virtual": false,

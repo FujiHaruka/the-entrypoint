@@ -1,7 +1,7 @@
 {
   "name": "the-entrypoint",
   "description": "Browser entrypoint for the-framework",
-  "version": "2.1.6",
+  "version": "2.2.0",
   "author": {
     "name": "okunishinishi",
     "email": "okunishinishi@gmail.com",
@@ -28,7 +28,7 @@
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^2.0.0",
-    "the-templates": "^4.0.15"
+    "the-templates": "^4.0.17"
   },
   "engines": {
     "node": ">=8",

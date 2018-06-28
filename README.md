@@ -89,7 +89,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-entrypoint@2.1.5](./doc/api/api.md)
++ [the-entrypoint@2.2.0](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
